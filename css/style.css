@@ -1,0 +1,316 @@
+/*=========Reset==============*/
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-decoration: none !important;
+	list-style: none !important;
+	
+}/* ======================== */
+
+/*===== color de fondo de la pagina====*/
+body{
+	background-color:  #292C3E;
+}/* ================================= */
+
+/*=====ajuste general=====*/
+h1 { 
+	margin-top: 50px;
+	color:whitesmoke;
+	font-weight: bold;
+}
+body main section h2{
+	text-align: start;
+	margin: 200px 0 0 50px;
+	color:whitesmoke;
+	font-weight: bold;
+	
+}
+h3{
+	color:whitesmoke;
+	font-weight: bold;
+}
+p {
+	margin-top: 15px;
+	color:whitesmoke;
+
+}/*======================*/
+
+/*===== creo un estilo para las fuentes, ajusto su tamaño y coloco un bold =====*/
+.texto-fuente{
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	color:whitesmoke
+}
+body main section h2{
+	font-size: 25px;
+}
+body main section div h3{
+	font-size: 20px;
+}
+/* ============================================================================*/
+
+/*===== ajusto el tamaño de la letra de la lista , su margen y padding =====*/
+ul{
+	font-family: "Roboto", sans-serif;
+	font-size: 15px ;
+	margin: 0px 0px 0px 10px;
+	padding-left: 0px;
+}/* =======================================================================*/
+
+/*===== Acomodo el color y le agrego unos efectos a las letras =====*/
+a{
+	color: whitesmoke;/*color de las letras*/
+	font-weight: bold;/*negrita*/
+}
+a:hover{
+	color:#51587c ;/*al pasar el cursor por arriba la letras cambian de color*/
+}/* =============================================================== */
+
+
+
+/*=========================DENTRO DEL INDEX==========================*/
+
+/*===== Logo del nav =====*/
+.logoimg{
+	margin-left: 40px; /*genero un espacio a la izquierda para que no quede pegado*/
+	height: 80px; /*tamaño*/
+}/* ====================== */
+
+/*==== ingreso y imagen ======*/
+.ingreso{
+	display: flex; /* para colocar la imagen al lado del li de ingreso*/
+	align-items: center; /* para centrar la iamgen y el li */
+}
+.ingreso img {
+	height: 35px; /* tamaño de la icono */
+}/* ========================= */
+
+/*====== imagen de contacto para whatsapp ======*/
+main picture a img{
+
+		position: fixed; /*fijo la posicion de la imagen*/
+		width: 50px; /* ajusto el ancho de la imagen*/
+		height: 50px; /* ajustoel largo de la imagen*/
+		bottom: 20px; /* coloco la imagen al abajo */
+
+}/* ============================================== */
+
+/*==== ajusto el menu de navegacion de arriba y le doy estilo =====*/
+.navegacion div ul li a{
+	margin-right: 70px; /*genero un espacio en el menu de arriba para que no quede pegado a la derecha*/
+	border: 2px solid white; /*le pongo un borde al li de ingresar(solo estetico)*/
+	border-radius: 5px; /*le pongo un borde para que no quede cuadrado*/
+	padding: 5px 5px 5px 5px; /* genero un espacio dentro para que el texto no quede pegado al border*/
+}
+.navegacion{
+	background-color: #141622;
+	display: flex; /* para colocar uno al lado del otro*/
+	justify-content: space-between; /* genero un espacio entre los items */
+    align-items: center; /*para que queden alineados*/
+}/* ============================================== */
+
+/*===== ajusto el menu de navegacion de abajo =====*/
+.navegacionpage{
+	background-color: #1C1F30; /*color de fondo del menu*/
+	display: flex; /* utilizo para poder poner la lista a la izquierda */
+	flex-direction: row-reverse; /* utilizo para poder poner la lista a la izquierda */
+}
+
+.navegacionpage ul{
+	display: flex; /*pongo los li una al lado de la otra*/
+	margin-bottom: 0px;
+}
+.navegacionpage ul li{
+	margin: 15px 30px 15px 0px; /* genero un espacio entre los li */
+}/* ============================================== */
+
+/*===== buscador =====*/
+.src{
+	font-size: 18px; /*tamaño de la letra dentro del buscador*/
+	width: 500px; /*acomodo largo del buscador*/
+	background-color: whitesmoke; /*coloco un color al fondo del buscador*/
+	border: 4px solid; /*tamaño del borde*/
+	border-color:#3b4058 ; /* color del borde*/
+	padding: 10px 0px 10px 15px; /* genero un espacio dentro del buscador para que no quede muy angosto */
+	box-shadow: 0 0 5px #6dcff580; /*le agrego un efecto de sombreado al buscador*/
+	color: #24252b;
+}/*==================*/
+
+/*===== MENU BOOSTRAP=====*/
+.menu-mobile{
+	display: none;/*oculto el menu para ponerlo en @media*/
+}
+.fondo-menu{
+	background-color: #1C1F30;/*fondo del menu*/
+	
+}
+.hover-menu:hover{
+	background-color:#414661;/*hover para menu*/
+}
+.texto-menu{/*estilo para las letras*/
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	color:whitesmoke;
+}/*=======================*/
+
+/*===== foto del main =====*/
+main div img{
+	width: 100%; /*para tomar el 100% del los valores del div*/
+}/*=======================*/
+
+
+/*===== APARTADO PARA PRODUCTOS =====*/
+.producto{
+background-color: #1e3c4780;/*fondo de la tarjeta de producto*/
+border: solid 1px black;/*borde*/
+display: inline-block;/*coloco los productos en linea*/
+width: 200px;
+height: 320px;
+box-shadow: 0px 1px 40px 0px #6dcff580;/*sombreado*/
+padding: 20px;/*para que ocupe menos espacio el contenido*/
+margin: 50px 50px;/*spacio entre contenidos*/
+overflow: hidden;/*El contenido recortado y no se muestran barras de posición.*/
+text-align: center;
+}/*==============================*/
+
+
+/*=======================================================================*/
+
+
+
+/*=============================DENTRO DE SOBRE NOSOTROS======================*/
+
+/*====quienes somos====*/
+iframe{
+	margin: 30px 0 0 20px; /*genero un margen para los iframes*/
+}
+.ubicacion-sobrenosotros{
+	display: inline; /*los coloco en linea*/
+}
+
+/* modifico la fuente para las letras y le agrego un margen para separar*/
+.font-sobrenosotros{
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	margin: 30px 0 0 20px;
+	color:whitesmoke;
+}
+/* aplico grid para que las imagenes se pongan en 2 columnas y que ocupen un tamaña espesifico */
+.imagenes-de-presentacion
+{
+	margin: 10px 30px;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: repeat(2, 40%) ;
+    grid-template-rows: 50% 50% ;
+    align-content: center;
+    gap: 10px;
+	
+}
+/* ajusto el tamaño de las imagenes para que ocupen lo mismo */
+.imagenes-de-presentacion img{
+	width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+/*=====================*/
+
+/*===========================================================================*/
+
+
+/*========================DENTRO DEL SOPORTE TECNICO=========================*/
+
+/*=====FORMULARIO=====*/
+.form-soporte{
+background-color: #1e3c4780;
+display: inline-block;/*creo "dos cartas" una informativa y otra de datos*/
+border: solid 1px black; /*genero un borde*/
+box-shadow: 0px 1px 40px 0px #6dcff580;/*sombreado*/
+padding: 20px;/*crea un espacio en la parte superior del formulario*/
+margin: 20 -3;/*pega las 2 secciones dando el efecto de que son 1*/
+width: 500px;
+height: 500px;
+overflow: hidden;
+}
+.form1{
+	margin-top: 50px;/*genero un espacio dentro del div*/
+}
+main section div form{
+	margin-bottom: 20px;
+}
+
+label{
+	color:whitesmoke;
+	font-weight: bold;
+	
+}
+input{
+	padding: 10px 50px 10px 15px;
+	background-color: #1C1F30;
+	color:whitesmoke;
+	font-weight: bold;
+}
+select{
+	padding: 10px 220px 10px 15px;
+	background-color: #1C1F30;
+	color:whitesmoke;
+	font-weight: bold;
+	
+}
+.label-soporte{
+	display: inline-block;
+	text-align: center;
+	margin-top: 20px;
+}
+.soporte{
+	text-align: center;
+}
+
+
+footer p{
+	margin:20px;
+	color: gray;
+	
+}
+footer{
+	width: 100%;
+	height: 40px;
+	background-color:#1C1F30 ;
+}
+
+/*===========================================================================*/
+
+/*===== display mobile ===== */
+@media screen and (max-width: 767px){
+	
+	/*hago aparecer el menu hamburguesa*/
+	.menu-mobile{
+		display: block;
+	}
+	/* genero un margen en el h2 */
+	main section h2{
+		margin-top: 100px;
+	}
+
+	/*ajuste del logo*/
+	.logoimg{
+		height: 70px;
+		margin: 20px 0px 20px;
+	}
+
+	.navegacion div ul li a{
+		margin-right: 10px; /*genero un espacio en el menu de arriba para que no quede pegado a la derecha*/
+   	}
+	/*oculto el nav de desktop para que solo quede el menu hamburguesa*/
+	body header nav  .navegacionpage{
+		display: none;
+	}
+
+	body header nav section .src{
+		width: 250px; /*acomodo largo del buscador*/
+	}
+
+ 	
+}/*==============================*/
